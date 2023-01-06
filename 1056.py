@@ -8,6 +8,8 @@ class Solution:
             '9': '6',
         }
         
+        
+        
         b = []
         
         str_n = str(n)
@@ -17,4 +19,8 @@ class Solution:
                 return False
             b.append(a[c])
         
+        
         return False if ''.join(b) == str_n else True
+    
+    
+# leetcode 1056번 문제
